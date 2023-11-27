@@ -1,0 +1,19 @@
+﻿<Window x:Class="Product1.Tech"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Product1"
+        mc:Ignorable="d"
+        Title="Tech" Height="450" Width="800">
+    <Grid>
+        <Border Margin="10 10 640 340" Background="Red" CornerRadius="20">
+            <TextBlock Text="核心技术" Background="Transparent" FontSize="35" Foreground="White"
+               HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Border>
+        <Border Margin="10 110 620 240" Background="LightGreen" CornerRadius="20">
+            <TextBlock Text="ChatGPT" Background="Transparent" FontSize="35" Foreground="Black"
+   HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Border>
+    </Grid>
+</Window>
