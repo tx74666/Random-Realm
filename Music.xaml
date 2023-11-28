@@ -9,27 +9,33 @@
         MinHeight="450" MinWidth="800"
         MaxHeight="450" MaxWidth="800">
     <Grid>
-        <Border Margin="10 50 600 300" Grid.Row="0" Background="Orange" CornerRadius="20" x:Name="Border1">
+        <Border Margin="10 50 600 300" Background="Orange" CornerRadius="20" x:Name="Border1">
             <Button Click="Button_Click" Content="ULTIMATE" FontSize="35" Background="Transparent"/>
         </Border>
-        <Border Margin="10,150,150,200" Grid.Row="0" Background="Orange" CornerRadius="20" x:Name="Border2">
+        <Border Margin="10,150,150,200" Background="Orange" CornerRadius="20" x:Name="Border2">
             <Button Click="Button_Click_1" FontSize="35" Background="Transparent" Content="Everybody wants to rule THE WORLD" />
         </Border>
-        <Border Margin="10 250 650 100" Grid.Row="0" Background="Orange" CornerRadius="20" x:Name="Border3">
+        <Border Margin="10 250 650 100" Background="Orange" CornerRadius="20" x:Name="Border3">
             <Button Click="Button_Click_2" Content="TEETH" FontSize="35" Background="Transparent"/>
         </Border>
         
-        <Border Margin="210 50 300 300" Grid.Row="0" Background="Orange" CornerRadius="20" x:Name="Border4">
+        <Border Margin="210 50 300 300" Background="Orange" CornerRadius="20" x:Name="Border4">
             <Button Click="Button_Click_4" Content="Never Be Alone" FontSize="35" Background="Transparent"/>
         </Border>
-        <Border Margin="650 50 10 300" Grid.Row="0" Background="Orange" CornerRadius="20">
+        <Border Margin="650 50 10 300" Background="Orange" CornerRadius="20">
             <Button Content="备注" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click_3"  Background="Transparent"/>
         </Border>
-        <Border Margin="10 350 665 20" Grid.Row="0" Background="SkyBlue" CornerRadius="20">
+        <Border Margin="10 350 665 20" Background="SkyBlue" CornerRadius="20">
             <Button Click="Button_Click_5" Content="Previous" FontSize="25" Background="Transparent"/>
         </Border>
-        <Border Margin="140 350 555 20" Grid.Row="0" Background="SkyBlue" CornerRadius="20">
+        <Border Margin="140 350 555 20" Background="SkyBlue" CornerRadius="20">
             <Button Click="Button_Click_6" Content="Next" FontSize="25" Background="Transparent"/>
+        </Border>
+        <Border Margin="550 350 145 20" Background="SkyBlue" CornerRadius="20">
+            <Button Click="Button_Click_7" Content="Pause" FontSize="25" Background="Transparent"/>
+        </Border>
+        <Border Margin="660 350 10 20" Background="SkyBlue" CornerRadius="20">
+            <Button Click="Button_Click_8" Content="Resume" FontSize="25" Background="Transparent"/>
         </Border>
     </Grid>
 </Window>

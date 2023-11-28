@@ -67,5 +67,15 @@ namespace Product1
             Border3.Visibility = Visibility.Hidden;
             Border4.Visibility = Visibility.Hidden;
         }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            MUSIC.Pause();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            MUSIC.Play();
+        }
     }
 }

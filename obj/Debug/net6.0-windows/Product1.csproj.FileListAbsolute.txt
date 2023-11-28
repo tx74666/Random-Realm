@@ -37,3 +37,4 @@ C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Page1.g.cs
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Page2.g.cs
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Page1.baml
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Page2.baml
+C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Product1.sourcelink.json
