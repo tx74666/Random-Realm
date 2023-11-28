@@ -9,12 +9,12 @@ Product1
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\赵劲舞\source\repos\Product1\App.xaml
-10-123332186
-11480419015
-141129258072
+C:\Users\赵劲舞\source\repos\Product1\Basic\App.xaml
+10623926467
+1-1708618765
+14375000913
 1941014083692
-Ambition.xaml;Experiment.xaml;Game.xaml;MainWindow.xaml;Music.xaml;Page1.xaml;Page2.xaml;Politics.xaml;Society.xaml;Tech.xaml;
+Component\Ambition.xaml;Component\Experiment.xaml;Component\Game.xaml;Component\Music.xaml;Component\Politics.xaml;Component\Society.xaml;Component\Tech.xaml;Items\Page1.xaml;Items\Page2.xaml;Main\MainWindow.xaml;
 
 False
 

@@ -5,11 +5,22 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>画板-1.ico</ApplicationIcon>
+    <ApplicationIcon>Items\画板-1.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="画板-1.ico" />
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
+    <Page Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Items\画板-1.ico" />
+	  <ApplicationDefinition Include="Basic\App.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		  <SubType>Designer</SubType>
+	  </ApplicationDefinition>
   </ItemGroup>
 
 </Project>

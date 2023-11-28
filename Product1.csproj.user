@@ -1,69 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
+  <ItemGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Ambition.xaml.cs">
+    <Compile Update="Component\Ambition.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Experiment.xaml.cs">
+    <Compile Update="Component\Experiment.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Game.xaml.cs">
+    <Compile Update="Component\Game.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Music.xaml.cs">
+    <Compile Update="Component\Music.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page1.xaml.cs">
+    <Compile Update="Items\Page1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page2.xaml.cs">
+    <Compile Update="Items\Page2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Politics.xaml.cs">
+    <Compile Update="Component\Politics.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Society.xaml.cs">
+    <Compile Update="Component\Society.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Tech.xaml.cs">
+    <Compile Update="Component\Tech.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Ambition.xaml">
+    <Page Update="Component\Ambition.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Experiment.xaml">
+    <Page Update="Component\Experiment.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Game.xaml">
+    <Page Update="Component\Game.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Main\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Music.xaml">
+    <Page Update="Component\Music.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page1.xaml">
+    <Page Update="Items\Page1.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page2.xaml">
+    <Page Update="Items\Page2.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Politics.xaml">
+    <Page Update="Component\Politics.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Society.xaml">
+    <Page Update="Component\Society.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Tech.xaml">
+    <Page Update="Component\Tech.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
