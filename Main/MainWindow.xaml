@@ -31,28 +31,28 @@
                     </Grid>
                 </Border>
                 <Border Margin="10 10 1000 500" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click" Content="政治" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click" Content="政治" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="10 100 1000 410" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_3" Content="技术" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_3" Content="技术" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="10 190 1000 320" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_4" Content="游戏" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_4" Content="游戏" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="1000 10 0 500" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_1" Content="Exit" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_1" Content="Exit" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="10 280 1000 230" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_2" Content="音乐" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_2" Content="音乐" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="10 370 1000 140" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_5" Content="试验区" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_5" Content="试验区" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="10 460 1000 50" Grid.Row="1" Background="Red" CornerRadius="20">
-                    <Button Click="Button_Click_6" Content="? ? ?" FontSize="50" Background="Transparent"/>
+                            <Button Click="Button_Click_6" Content="? ? ?" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
                 <Border Margin="250 10 760 500" Grid.Row="1" Background="Orange" CornerRadius="20">
-                    <Button Click="Button_Click_7" Content="社会" FontSize="50" Background="Transparent"/>
+                    <Button Click="Button_Click_7" Content="社会" FontSize="50" Background="Transparent" BorderThickness="0"/>
                 </Border>
             </Grid>
         </Border>

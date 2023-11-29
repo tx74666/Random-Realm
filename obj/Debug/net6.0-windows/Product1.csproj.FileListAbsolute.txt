@@ -38,3 +38,5 @@ C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Component\Musi
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Component\Politics.baml
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Component\Society.baml
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Component\Tech.baml
+C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Lyrics.g.cs
+C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Lyrics.baml

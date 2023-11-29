@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Product1.Items;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,12 +25,13 @@ namespace Product1
         {
             InitializeComponent();
         }
-        readonly MediaPlayer MUSIC = new();
+        readonly MediaPlayer MUSIC = new();        
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
+        {            
             MUSIC.Open(new Uri("Resource\\ULTIMATE.wav", UriKind.Relative));
             MUSIC.Play();
+            Lyrics Lyrics = new();
+            Lyrics.Show();             
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -76,6 +78,6 @@ namespace Product1
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
             MUSIC.Play();
-        }
+        }        
     }
 }

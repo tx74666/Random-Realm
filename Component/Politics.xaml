@@ -8,10 +8,10 @@
         Title="Politics" Height="450" Width="800" SizeToContent="WidthAndHeight">
     <Grid>
         <Border Margin="20,20,640,340" Background="LightBlue" CornerRadius="20">
-            <Button Click="USA_Click"  Background="Transparent" Name="USA" FontSize="50" Content="USA"/>
+            <Button Click="USA_Click"  Background="Transparent" Name="USA" FontSize="50" Content="USA" BorderThickness="0"/>
         </Border>
         <Border Margin="20,100,640,250" Background="Red" CornerRadius="20">
-            <Button Click="China_Click"  Background="Transparent" Name="China" FontSize="50" Content="China"/>
+            <Button Click="China_Click"  Background="Transparent" Name="China" FontSize="50" Content="China" BorderThickness="0"/>
         </Border>
 
 

@@ -14,7 +14,7 @@
         <Border Background="White" CornerRadius="50" BorderThickness="5"
              BorderBrush="Gray" Padding="20" >
             <Border Margin="600 10 10 350" Background="Orange" CornerRadius="20">
-                <Button Click="Button_Click" Content="Exit" FontSize="50" Background="Transparent"/>
+                <Button Click="Button_Click" Content="Exit" FontSize="50" Background="Transparent" BorderThickness="0"/>
             </Border>
         </Border>
           
