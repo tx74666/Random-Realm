@@ -1,59 +1,61 @@
 ﻿using Product1.Items;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Product1
 {
+
     /// <summary>
     /// Music.xaml 的交互逻辑
     /// </summary>
     public partial class Music : Window
     {
+        public int n;
         public Music()
         {
             InitializeComponent();
         }
-        readonly MediaPlayer MUSIC = new();        
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {            
-            MUSIC.Open(new Uri("Resource\\ULTIMATE.wav", UriKind.Relative));
-            MUSIC.Play();
-            Lyrics Lyrics = new();
-            Lyrics.Show();             
+        readonly MediaPlayer MUSIC = new();
+        public void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PlayMusic("Resource\\ULTIMATE.wav", 1);
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            PlayMusic("Resource\\Never Be Alone.mp3", 2);
+        }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MUSIC.Open(new Uri("Resource\\THEWORLD.mp3", UriKind.Relative));
-            MUSIC.Play();
+            PlayMusic("Resource\\THEWORLD.mp3", 3);
         }
+
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            MUSIC.Open(new Uri("Resource\\TEETH.mp3", UriKind.Relative));
-            MUSIC.Play();
+            PlayMusic("Resource\\TEETH.mp3", 4);
         }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            PlayMusic("Resource\\Memories.wav", 5);
+        }
+
+        private void PlayMusic(string filePath, int number)
+        {
+            MUSIC.Open(new Uri(filePath, UriKind.Relative));
+            MUSIC.Play();
+            n = number;
+            ShowLyrics();
+        }
+
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("可能采样不够");
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-            MUSIC.Open(new Uri("Resource\\Never Be Alone.mp3", UriKind.Relative));
-            MUSIC.Play();
-        }
-
+        
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Border1.Visibility = Visibility.Visible;
@@ -78,6 +80,13 @@ namespace Product1
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
             MUSIC.Play();
-        }        
+        }
+        private void ShowLyrics()
+        {
+            Lyrics lyricsWindow = new Lyrics(n); // 将 n 作为参数传递给 Lyrics 构造函数
+            lyricsWindow.Show();
+        }
+
+        
     }
 }

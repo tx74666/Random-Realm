@@ -37,5 +37,8 @@
         <Border Margin="660 350 10 20" Background="SkyBlue" CornerRadius="20">
             <Button Click="Button_Click_8" Content="Resume" FontSize="25" Background="Transparent" BorderThickness="0"/>
         </Border>
+        <Border Margin="160 250 280 100" Background="Orange" CornerRadius="20" x:Name="Border5">
+            <Button Click="Button_Click_9" Content="House of Memories" FontSize="35" Background="Transparent" BorderThickness="0"/>
+        </Border>
     </Grid>
 </Window>

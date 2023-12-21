@@ -18,12 +18,6 @@
     <Compile Update="Items\Lyrics.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Items\Page1.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Items\Page2.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Component\Politics.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -51,12 +45,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Component\Music.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Items\Page1.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Items\Page2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Component\Politics.xaml">

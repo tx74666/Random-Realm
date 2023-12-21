@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Product1.Items"
         mc:Ignorable="d"
-        Title="Lyrics" Height="500" Width="600"
+        Title="Lyrics" Height="800" Width="1000"
         WindowStyle="None" ResizeMode="NoResize" Background="Transparent"
         AllowsTransparency="True"
         PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown"
@@ -17,8 +17,8 @@
                 <Border Width="40" Height="40" Background="#FF6EFA1B" CornerRadius="10" HorizontalAlignment="Right" VerticalAlignment="Top">
                     <Button Click="Button_Click" Content="X" FontSize="20" Background="Transparent" BorderThickness="0"/>
                 </Border>
-                <Border Width="500" Height="450" Background="#FFFF9191" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="40">
-                    <RichTextBox Background="Transparent" x:Name="MyRichTextBox" Width="480" Height="400" HorizontalAlignment="Left" BorderThickness="0"/>
+                <Border Width="900" Height="750" Background="#FFA2F776" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="40">
+                    <RichTextBox Background="Transparent" x:Name="MyRichTextBox" Width="800" Height="720" HorizontalAlignment="Left" BorderThickness="0"/>
                 </Border>
             </Grid>
         </Border>

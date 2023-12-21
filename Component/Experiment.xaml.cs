@@ -11,18 +11,7 @@ namespace Product1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //获得page1 页面活动面板
-            Uri uri = new("../Items/Page1.xaml", UriKind.Relative);
-            framemain.Source = uri;
-        }
-        private void Button_Click1(object sender, RoutedEventArgs e)
-        {
-            //获得page2 页面活动面板
-            Uri uri = new("../Items/Page2.xaml", UriKind.Relative);
-            framemain.Source = uri;
-        }
+        
     }
 }
 

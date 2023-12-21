@@ -17,10 +17,6 @@ C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Product1.genru
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\ref\Product1.dll
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Product1_Content.g.cs
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Product1.sourcelink.json
-C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Page1.g.cs
-C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Page2.g.cs
-C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Page1.baml
-C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Items\Page2.baml
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Main\MainWindow.baml
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Main\MainWindow.g.cs
 C:\Users\赵劲舞\source\repos\Product1\obj\Debug\net6.0-windows\Basic\App.g.cs
